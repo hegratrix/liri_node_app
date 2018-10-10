@@ -31,6 +31,10 @@ The fourth option is Do-What-It-Says.  For Do-What-It-Says, it reads from the ra
 
 ![random.PNG](./readMe/random.PNG)
 ![5.PNG](./readMe/5.PNG)
+_________________________
+Each search is recorded in a log.txt file.
+
+![log.PNG](./readMe/log.PNG)
 
 Finally, if you choose no when asked if you want to start over, the program says "Good-bye" and ends.
 

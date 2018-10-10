@@ -1,14 +1,3 @@
-Concert-This: david cook
-Spotify-this-Song: Purple Rain
-Spotify-this-Song: 
-Movie-This: Cool Runnings
-Spotify-this-Song: 
-Movie-This: Cool Runnings
-Movie-This: 
-Concert-This: David Cook
-Spotify-this-Song: "I Want it That Way"Spotify-this-Song: purple rain
-Spotify-this-Song: Purple Rain
-Spotify-this-Song: 
 Spotify-this-Song: Purple Rain
 Spotify-this-Song: 
 Movie-This: Cool Runnings
