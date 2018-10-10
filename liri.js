@@ -60,7 +60,7 @@ function getSong (song) {
     let searchSong = song
     let typeSong = 'track'
     if (song === '') {
-        searchSong = 'The Sign'
+        searchSong = 'Ace of Base the Sign'
     }
     spotify.search({ type: 'track', query: searchSong, limit: 3}, function(err, data) {
         if (err) {
