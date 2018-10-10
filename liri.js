@@ -7,14 +7,14 @@ const keys = require('./keys.js')
 const Spotify = require('node-spotify-api')
 const spotify = new Spotify(keys.spotify)
 
-
+console.log('Welcome to Liri!')
 runProgram()
 function runProgram () {
     inquirer.prompt([
         {
         type: 'list',
         name: 'action',
-        message: 'Welcome to Liri!  \nWhat would you like to do?',
+        message: 'What would you like to do?',
         choices: ['Spotify-This-Song', 'Movie-This', 'Concert-This', 'Do-What-It-Says']
         }
     ]).then(function (option) {
@@ -106,7 +106,6 @@ function getMovie (movie) {
             ******************************
         `)
         console.log (newMovie)
-        // console.log (JSON.parse(body))
         fs.appendFile ('log.txt', 'Movie-This: ' +movie+ '\n',  function(err) {
         playAgain()
             if (err) {
